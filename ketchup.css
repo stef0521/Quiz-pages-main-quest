@@ -1,0 +1,102 @@
+* {
+    font-family: helvetica;
+}
+
+body{
+    margin: 0px;
+    background-color: #FF5151;
+}
+
+.list {
+    display: flex;
+    gap: 40%;
+    list-style: none;
+}
+
+.titleli {
+    font-style: inherit;
+    font-weight: 900;
+    color: black;
+}
+
+.navline {
+    height:3px;
+    border-width: 0;
+    background-color: black;
+}
+
+.bigtext {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 55px;
+}
+
+.bolded {
+    font-weight: 600px;
+}
+
+.description {
+    text-align: center;
+    margin: 20px 500px;
+    font-size: 20px;
+}
+
+.try {
+    display: flex;
+    justify-content: center;
+    color: #FFE765;
+    font-size: 32px;
+}
+
+
+.foodtruckimg {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 500px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+}
+
+.bigimgcontainer {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    width: 700px;
+    height: 400px;
+}
+
+.bigimgcontainer img {
+    width: 580px;
+    height: 400px;
+}
+
+.imgcontainer {
+    padding: 5px;
+    margin-bottom: 0px;
+    width: 2000px;
+    height: 250px;
+}
+
+.imagebutton  {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 170px;
+    color: white;
+    background-color: #2CC989;
+    width: 550px;
+    height: 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgcontainer img {
+    margin: 50px 30px 70px;
+    width: 230px;
+    height: 230px;
+}

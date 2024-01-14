@@ -1,0 +1,91 @@
+* {
+    font-family: helvetica;
+}
+
+body{
+    margin: 0px;
+    background-color: #009C66;
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.image {
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+}
+
+.titleli {
+    margin: 0px;
+    width: 300px;
+    font-style: inherit;
+    font-weight: 900;
+    color: black;
+    position: absolute;
+    bottom: -8px;
+    left: 720px;
+}
+
+.imageli {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer {
+    background-color: #FF5723;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+}
+
+.b, strong {
+    color: #FF5723;
+}
+
+.textcontainer {
+    margin-right: 70px;
+    margin-top: 0px;
+    font-size: 40px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.textcontainer h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.textcontainer p {
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-top: 0px;
+    color: white;
+    font-size: 70px;
+}
+
+.zodiaccontainer {
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.zodiaccontainer p {
+    color: white;
+    margin-top: 10px;
+}
